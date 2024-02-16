@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toc Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-600">
+    <div class="text-center mt-5 Winner hidden">
+      <p class="text-white text-[1.5rem] font-bold msg">
+        Congratulation, Winner is
+      </p>
+      <button
+        class="mt-5 text-[4vmin] bg-fuchsia-800 py-1 px-5 rounded-[2.5vmin] font-serif border-none nextBtn"
+      >
+        Next Game
+      </button>
+    </div>
+    <div class="h-[90vh] flex justify-center items-center flex-col p-2">
+      <h2 class="text-[4vmin] mb-7 font-bold text-white font-mono">
+        Tic Tac Toe Game
+      </h2>
+      <div class="grid grid-cols-3 gap-3">
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+        <button
+          class="h-[15vmin] w-[15vmin] bg-white rounded-[2.5vmin] box"
+        ></button>
+      </div>
+      <button
+        class="mt-5 text-[4vmin] bg-black text-white py-1 px-5 rounded-[2.5vmin] font-serif border-none resetBtn"
+      >
+        Reset Button
+      </button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
